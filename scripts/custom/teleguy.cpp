@@ -30,31 +30,31 @@ bool GossipHello_mob_teleguy(Player* player, Creature* _Creature)
 {
     if (player->GetTeam() == ALLIANCE)
     {
-        player->ADD_GOSSIP_ITEM( 5, "Darnassus. 5 Silver" , GOSSIP_SENDER_MAIN, 1203);
-        player->ADD_GOSSIP_ITEM( 5, "Exodar. 5 Silver" , GOSSIP_SENDER_MAIN, 1216);
-        player->ADD_GOSSIP_ITEM( 5, "Stormwind. 5 Silver" , GOSSIP_SENDER_MAIN, 1206);
-        player->ADD_GOSSIP_ITEM( 5, "Ironforge. 5 Silver" , GOSSIP_SENDER_MAIN, 1224);
-        player->ADD_GOSSIP_ITEM( 5, "Shattrath City. 5 Silver" , GOSSIP_SENDER_MAIN, 1287);
-        player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Silver" , GOSSIP_SENDER_MAIN, 1205);
-        player->ADD_GOSSIP_ITEM( 5, "Isle Of Quel'Danas. 5 Silver" , GOSSIP_SENDER_MAIN, 1288);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances Normal] ->" , GOSSIP_SENDER_MAIN, 5550);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances BC] ->" , GOSSIP_SENDER_MAIN, 5553);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances WotLK] ->" , GOSSIP_SENDER_MAIN, 5554);
-        player->ADD_GOSSIP_ITEM( 7, "[Raids WotLK] ->" , GOSSIP_SENDER_MAIN, 5555);
+        player->ADD_GOSSIP_ITEM( 5, "Darnassus. 5 Platas" , GOSSIP_SENDER_MAIN, 1203);
+        player->ADD_GOSSIP_ITEM( 5, "Exodar. 5 Platas" , GOSSIP_SENDER_MAIN, 1216);
+        player->ADD_GOSSIP_ITEM( 5, "Ciudad de Ventormenta. 5 Platas" , GOSSIP_SENDER_MAIN, 1206);
+        player->ADD_GOSSIP_ITEM( 5, "Forjaz. 5 Platas" , GOSSIP_SENDER_MAIN, 1224);
+        player->ADD_GOSSIP_ITEM( 5, "Ciudad de Shattrath. 5 Platas" , GOSSIP_SENDER_MAIN, 1287);
+        player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Platas" , GOSSIP_SENDER_MAIN, 1205);
+        player->ADD_GOSSIP_ITEM( 5, "Isla de Quel'Danas. 5 Platas" , GOSSIP_SENDER_MAIN, 1288);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Normales] ->" , GOSSIP_SENDER_MAIN, 5550);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Burning Crusade] ->" , GOSSIP_SENDER_MAIN, 5553);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5554);
+        player->ADD_GOSSIP_ITEM( 7, "[Raids Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5555);
     }
     else
     {
-        player->ADD_GOSSIP_ITEM( 5, "Orgrimmar. 5 Silver" , GOSSIP_SENDER_MAIN, 1215);
-        player->ADD_GOSSIP_ITEM( 5, "Silvermoon. 5 Silver" , GOSSIP_SENDER_MAIN, 1217);
-        player->ADD_GOSSIP_ITEM( 5, "Undercity. 5 Silver" , GOSSIP_SENDER_MAIN, 1213);
-        player->ADD_GOSSIP_ITEM( 5, "Thunder Bluff. 5 Silver" , GOSSIP_SENDER_MAIN, 1225);
-        player->ADD_GOSSIP_ITEM( 5, "Shattrath City. 5 Silver" , GOSSIP_SENDER_MAIN, 1287);
-        player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Silver" , GOSSIP_SENDER_MAIN, 1205);
-        player->ADD_GOSSIP_ITEM( 5, "Isle Of Quel'Danas. 5 Silver" , GOSSIP_SENDER_MAIN, 1288);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances Normal] ->" , GOSSIP_SENDER_MAIN, 5550);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances BC] ->" , GOSSIP_SENDER_MAIN, 5553);
-        player->ADD_GOSSIP_ITEM( 7, "[Instances WotLK] ->" , GOSSIP_SENDER_MAIN, 5554);
-        player->ADD_GOSSIP_ITEM( 7, "[Raids WotLK] ->" , GOSSIP_SENDER_MAIN, 5555);
+        player->ADD_GOSSIP_ITEM( 5, "Orgrimmar. 5 Platas" , GOSSIP_SENDER_MAIN, 1215);
+        player->ADD_GOSSIP_ITEM( 5, "Ciudad de Lunargenta. 5 Platas" , GOSSIP_SENDER_MAIN, 1217);
+        player->ADD_GOSSIP_ITEM( 5, "Entrañas. 5 Platas" , GOSSIP_SENDER_MAIN, 1213);
+        player->ADD_GOSSIP_ITEM( 5, "Cima del Trueno. 5 Platas" , GOSSIP_SENDER_MAIN, 1225);
+        player->ADD_GOSSIP_ITEM( 5, "Ciudad de Shattrath. 5 Platas" , GOSSIP_SENDER_MAIN, 1287);
+        player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Platas" , GOSSIP_SENDER_MAIN, 1205);
+        player->ADD_GOSSIP_ITEM( 5, "Isla de Quel'Danas. 5 Platas" , GOSSIP_SENDER_MAIN, 1288);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Normales] ->" , GOSSIP_SENDER_MAIN, 5550);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Burning Crusade] ->" , GOSSIP_SENDER_MAIN, 5553);
+        player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5554);
+        player->ADD_GOSSIP_ITEM( 7, "[Raids Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5555);
     }
     player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
     return true;
@@ -65,14 +65,14 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
     if (player->IsInCombat())
     {
         player->CLOSE_GOSSIP_MENU();
-        _Creature->MonsterSay("You are in combat!", LANG_UNIVERSAL);
+        _Creature->MonsterSay("¡Estás en combate!", LANG_UNIVERSAL);
         return;
     }
 
     if (player->getLevel() < 8)
     {
          player->CLOSE_GOSSIP_MENU();
-        _Creature->MonsterSay("You must be lvl 8+", LANG_UNIVERSAL);
+        _Creature->MonsterSay("Debes estar a nivel 8+", LANG_UNIVERSAL);
         return;
     }
 
@@ -82,7 +82,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
     if (money < costo)
     {
         player->CLOSE_GOSSIP_MENU();
-        _Creature->MonsterSay("You haven't enough money", LANG_UNIVERSAL);
+        _Creature->MonsterSay("No tiene suficiente dinero", LANG_UNIVERSAL);
         return;
     }
 
@@ -93,22 +93,22 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             // Teleport to the points that are close to the enemy capital closed
             if (player->GetTeam() == ALLIANCE)
             {
-                player->ADD_GOSSIP_ITEM( 5, "The Stockade. 10 Silver" , GOSSIP_SENDER_MAIN, 1253);
-                player->ADD_GOSSIP_ITEM( 5, "Gnomeregan. 10 Silver" , GOSSIP_SENDER_MAIN, 1222);
+                player->ADD_GOSSIP_ITEM( 5, "Las Mazmorras. 10 Platas" , GOSSIP_SENDER_MAIN, 1253);
+                player->ADD_GOSSIP_ITEM( 5, "Gnomeregan. 10 Platas " , GOSSIP_SENDER_MAIN, 1222);
             }
             else
             {
-                player->ADD_GOSSIP_ITEM( 5, "Scarlet Monastery. 10 Silver" , GOSSIP_SENDER_MAIN, 1257);
-                player->ADD_GOSSIP_ITEM( 5, "Ragefire Chasm. 10 Silver" , GOSSIP_SENDER_MAIN, 1248);
+                player->ADD_GOSSIP_ITEM( 5, "Monasterio Escarlata. 10 Platas" , GOSSIP_SENDER_MAIN, 1257);
+                player->ADD_GOSSIP_ITEM( 5, "Sima Ígnea. 10 Platas" , GOSSIP_SENDER_MAIN, 1248);
             }
-            player->ADD_GOSSIP_ITEM( 5, "The Wailing Caverns. 10 Silver" , GOSSIP_SENDER_MAIN, 1249);
-            player->ADD_GOSSIP_ITEM( 5, "Deadmines. 10 Silver" , GOSSIP_SENDER_MAIN, 1250);
-            player->ADD_GOSSIP_ITEM( 5, "Shadowfang Keep. 10 Silver" , GOSSIP_SENDER_MAIN, 1251);
-            player->ADD_GOSSIP_ITEM( 5, "Blackfathom Deeps. 10 Silver" , GOSSIP_SENDER_MAIN, 1252);
-            player->ADD_GOSSIP_ITEM( 5, "Razorfen Kraul. 20 Silver" , GOSSIP_SENDER_MAIN, 1254);
-            player->ADD_GOSSIP_ITEM( 5, "Razorfen Downs. 20 Silver" , GOSSIP_SENDER_MAIN, 1256);
-            player->ADD_GOSSIP_ITEM( 7, "[More] ->" , GOSSIP_SENDER_MAIN, 5551);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Main Menu]" , GOSSIP_SENDER_MAIN, 5552);
+            player->ADD_GOSSIP_ITEM( 5, "Cuevas de los Lamentos. 10 Platas" , GOSSIP_SENDER_MAIN, 1249);
+            player->ADD_GOSSIP_ITEM( 5, "Minas de la Muerte. 10 Platas" , GOSSIP_SENDER_MAIN, 1250);
+            player->ADD_GOSSIP_ITEM( 5, "Castillo de Colmillo Oscuro. 10 Platas" , GOSSIP_SENDER_MAIN, 1251);
+            player->ADD_GOSSIP_ITEM( 5, "Cavernas de Brazanegra. 10 Platas" , GOSSIP_SENDER_MAIN, 1252);
+            player->ADD_GOSSIP_ITEM( 5, "Horado Rajacieno. 20 Platas" , GOSSIP_SENDER_MAIN, 1254);
+            player->ADD_GOSSIP_ITEM( 5, "Zahurda Rajacieno. 20 Platas" , GOSSIP_SENDER_MAIN, 1256);
+            player->ADD_GOSSIP_ITEM( 7, "[Mas] ->" , GOSSIP_SENDER_MAIN, 5551);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Menu Principal]" , GOSSIP_SENDER_MAIN, 5552);
 
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -116,19 +116,19 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
 
         case 5551: // More Normal Instances
         {
-            player->ADD_GOSSIP_ITEM( 5, "Uldaman. 30 Silver" , GOSSIP_SENDER_MAIN, 1258);
-            player->ADD_GOSSIP_ITEM( 5, "Zul'Farrak. 30 Silver" , GOSSIP_SENDER_MAIN, 1259);
-            player->ADD_GOSSIP_ITEM( 5, "Maraudon. 40 Silver" , GOSSIP_SENDER_MAIN, 1260);
-            player->ADD_GOSSIP_ITEM( 5, "The Sunken Temple. 40 Silver" , GOSSIP_SENDER_MAIN, 1261);
-            player->ADD_GOSSIP_ITEM( 5, "Blackrock Depths. 40 Silver" , GOSSIP_SENDER_MAIN, 1262);
-            player->ADD_GOSSIP_ITEM( 5, "Dire Maul. 50 Silver" , GOSSIP_SENDER_MAIN, 1263);
-            player->ADD_GOSSIP_ITEM( 5, "Blackrock Spire. 50 Silver" , GOSSIP_SENDER_MAIN, 1264);
-            player->ADD_GOSSIP_ITEM( 5, "Stratholme. 50 Silver" , GOSSIP_SENDER_MAIN, 1265);
-            player->ADD_GOSSIP_ITEM( 5, "Scholomance. 50 Silver" , GOSSIP_SENDER_MAIN, 1266);
-            player->ADD_GOSSIP_ITEM( 5, "Ahn'Qiraj. 50 Silver" , GOSSIP_SENDER_MAIN, 1267);
-            player->ADD_GOSSIP_ITEM( 5, "Zul'Gurub. 50 Silver" , GOSSIP_SENDER_MAIN, 1268);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Back]" , GOSSIP_SENDER_MAIN, 5550);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Main Menu]" , GOSSIP_SENDER_MAIN, 5552);
+            player->ADD_GOSSIP_ITEM( 5, "Uldaman. 30 Platas" , GOSSIP_SENDER_MAIN, 1258);
+            player->ADD_GOSSIP_ITEM( 5, "Zul'Farrak. 30 Platas" , GOSSIP_SENDER_MAIN, 1259);
+            player->ADD_GOSSIP_ITEM( 5, "Maraudon. 40 Platas" , GOSSIP_SENDER_MAIN, 1260);
+            player->ADD_GOSSIP_ITEM( 5, "Templo Sumergido. 40 Platas" , GOSSIP_SENDER_MAIN, 1261);
+            player->ADD_GOSSIP_ITEM( 5, "Profundidades de Roca Negra. 40 Platas" , GOSSIP_SENDER_MAIN, 1262);
+            player->ADD_GOSSIP_ITEM( 5, "La Masacre. 50 Platas" , GOSSIP_SENDER_MAIN, 1263);
+            player->ADD_GOSSIP_ITEM( 5, "Cumbre de Roca Negra. 50 Platas" , GOSSIP_SENDER_MAIN, 1264);
+            player->ADD_GOSSIP_ITEM( 5, "Stratholme. 50 Platas" , GOSSIP_SENDER_MAIN, 1265);
+            player->ADD_GOSSIP_ITEM( 5, "Scholomance. 50 Platas" , GOSSIP_SENDER_MAIN, 1266);
+            player->ADD_GOSSIP_ITEM( 5, "Ahn'Qiraj. 50 Platas" , GOSSIP_SENDER_MAIN, 1267);
+            player->ADD_GOSSIP_ITEM( 5, "Zul'Gurub. 50 Platas" , GOSSIP_SENDER_MAIN, 1268);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Atras]" , GOSSIP_SENDER_MAIN, 5550);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Menu Principal]" , GOSSIP_SENDER_MAIN, 5552);
 
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -136,16 +136,16 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
 
         case 5553: // Instances 60-70 BC
         {
-            player->ADD_GOSSIP_ITEM( 5, "Auchindoun. 1 Gold" , GOSSIP_SENDER_MAIN, 4006);
-            player->ADD_GOSSIP_ITEM( 5, "Karazhan. 1 Gold" , GOSSIP_SENDER_MAIN, 4007);
-            player->ADD_GOSSIP_ITEM( 5, "Gruul's Lair. 1 Gold" , GOSSIP_SENDER_MAIN, 4008);
-            player->ADD_GOSSIP_ITEM( 5, "Hellfire Citadel. 1 Gold" , GOSSIP_SENDER_MAIN, 4009);
-            player->ADD_GOSSIP_ITEM( 5, "Coilfang Reservoir. 1 Gold" , GOSSIP_SENDER_MAIN, 4010);
-            player->ADD_GOSSIP_ITEM( 5, "Tempest Keep. 1 Gold" , GOSSIP_SENDER_MAIN, 4011);
-            player->ADD_GOSSIP_ITEM( 5, "Zul'Aman. 1 Gold" , GOSSIP_SENDER_MAIN, 4016);
-            player->ADD_GOSSIP_ITEM( 5, "Black Temple. 1 Gold" , GOSSIP_SENDER_MAIN, 4013);
-            player->ADD_GOSSIP_ITEM( 5, "Magister's Terrace. 2 Gold" , GOSSIP_SENDER_MAIN, 4017);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Main Menu]" , GOSSIP_SENDER_MAIN, 5552);
+            player->ADD_GOSSIP_ITEM( 5, "Auchindoun. 1 Oro" , GOSSIP_SENDER_MAIN, 4006);
+            player->ADD_GOSSIP_ITEM( 5, "Karazhan. 1 Oro" , GOSSIP_SENDER_MAIN, 4007);
+            player->ADD_GOSSIP_ITEM( 5, "Guarida de Gruul. 1 Oro" , GOSSIP_SENDER_MAIN, 4008);
+            player->ADD_GOSSIP_ITEM( 5, "Ciudadela del Fuego Infernal. 1 Oro" , GOSSIP_SENDER_MAIN, 4009);
+            player->ADD_GOSSIP_ITEM( 5, "Reserva Colmillo Torcido. 1 Oro" , GOSSIP_SENDER_MAIN, 4010);
+            player->ADD_GOSSIP_ITEM( 5, "El Castillo de la Tempestad. 1 Oro" , GOSSIP_SENDER_MAIN, 4011);
+            player->ADD_GOSSIP_ITEM( 5, "Zul'Aman. 1 Oro" , GOSSIP_SENDER_MAIN, 4016);
+            player->ADD_GOSSIP_ITEM( 5, "Templo Oscuro. 1 Oro" , GOSSIP_SENDER_MAIN, 4013);
+            player->ADD_GOSSIP_ITEM( 5, "Bancal del Magister. 2 Oros" , GOSSIP_SENDER_MAIN, 4017);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Menu Principal]" , GOSSIP_SENDER_MAIN, 5552);
 
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -153,17 +153,17 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
 
         case 5554: // Instances 70-80 WotLK
         {
-            player->ADD_GOSSIP_ITEM( 5, "Caverns of Time. 20 Gold" , GOSSIP_SENDER_MAIN, 4012);
-            player->ADD_GOSSIP_ITEM( 5, "Utgarde Keep. 20 Gold" , GOSSIP_SENDER_MAIN, 4019);
-            player->ADD_GOSSIP_ITEM( 5, "Azjol-Nerub. 20 Gold" , GOSSIP_SENDER_MAIN, 4021);
-            player->ADD_GOSSIP_ITEM( 5, "The Old Kingdom. 20 Gold" , GOSSIP_SENDER_MAIN, 4022);
-            player->ADD_GOSSIP_ITEM( 5, "Drak'Tharon Keep. 20 Gold" , GOSSIP_SENDER_MAIN, 4023);
-            player->ADD_GOSSIP_ITEM( 5, "Gundrak. 20 Gold" , GOSSIP_SENDER_MAIN, 4025);
-            player->ADD_GOSSIP_ITEM( 5, "Utgarde Pinnacle. 20 Gold" , GOSSIP_SENDER_MAIN, 4026);
-            player->ADD_GOSSIP_ITEM( 5, "Halls of Stone. 20 Gold" , GOSSIP_SENDER_MAIN, 4032);
-            player->ADD_GOSSIP_ITEM( 5, "Halls of Lightning. 20 Gold" , GOSSIP_SENDER_MAIN, 4033);
-            player->ADD_GOSSIP_ITEM( 5, "Frozen Halls. 20 Gold" , GOSSIP_SENDER_MAIN, 4034);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Main Menu]" , GOSSIP_SENDER_MAIN, 5552);
+            player->ADD_GOSSIP_ITEM( 5, "Cavernas del Tiempo. 20 Oros" , GOSSIP_SENDER_MAIN, 4012);
+            player->ADD_GOSSIP_ITEM( 5, "Fortaleza de Utgarde. 20 Oros" , GOSSIP_SENDER_MAIN, 4019);
+            player->ADD_GOSSIP_ITEM( 5, "Azjol-Nerub. 20 Oros" , GOSSIP_SENDER_MAIN, 4021);
+            player->ADD_GOSSIP_ITEM( 5, "El Antiguo Reino. 20 Oros" , GOSSIP_SENDER_MAIN, 4022);
+            player->ADD_GOSSIP_ITEM( 5, "Fortaleza de Drak'Tharon. 20 Oros" , GOSSIP_SENDER_MAIN, 4023);
+            player->ADD_GOSSIP_ITEM( 5, "Gundrak. 20 Oros" , GOSSIP_SENDER_MAIN, 4025);
+            player->ADD_GOSSIP_ITEM( 5, "Pinaculo de Utgarde. 20 Oros" , GOSSIP_SENDER_MAIN, 4026);
+            player->ADD_GOSSIP_ITEM( 5, "Camaras de Piedra. 20 Oros" , GOSSIP_SENDER_MAIN, 4032);
+            player->ADD_GOSSIP_ITEM( 5, "Camaras de Relampagos. 20 Oros" , GOSSIP_SENDER_MAIN, 4033);
+            player->ADD_GOSSIP_ITEM( 5, "Las Camaras Heladas. 20 Oros" , GOSSIP_SENDER_MAIN, 4034);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Menu Principal]" , GOSSIP_SENDER_MAIN, 5552);
 
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -171,15 +171,15 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
 
         case 5555: // Raids 80 WotLK
         {
-            player->ADD_GOSSIP_ITEM( 5, "The Nexus. 30 Gold" , GOSSIP_SENDER_MAIN, 4020);
-            player->ADD_GOSSIP_ITEM( 5, "Coliseum Vanguard. 30 Gold" , GOSSIP_SENDER_MAIN, 4024);
-            player->ADD_GOSSIP_ITEM( 5, "Ulduar. 30 Gold" , GOSSIP_SENDER_MAIN, 4027);
-            player->ADD_GOSSIP_ITEM( 5, "Wyrmrest Temple. 40 Gold" , GOSSIP_SENDER_MAIN, 4028);
-            player->ADD_GOSSIP_ITEM( 5, "Naxxramas. 30 Gold" , GOSSIP_SENDER_MAIN, 4029);
-            player->ADD_GOSSIP_ITEM( 5, "Icecrown Citadel. 40 Gold" , GOSSIP_SENDER_MAIN, 4030);
-            player->ADD_GOSSIP_ITEM( 5, "Vault of Archavon. 40 Gold" , GOSSIP_SENDER_MAIN, 4031);
-            player->ADD_GOSSIP_ITEM( 5, "Onyxia's Lair. 40 Gold" , GOSSIP_SENDER_MAIN, 4035);
-            player->ADD_GOSSIP_ITEM( 7, "<- [Main Menu]" , GOSSIP_SENDER_MAIN, 5552);
+            player->ADD_GOSSIP_ITEM( 5, "El Nexo. 30 Oros" , GOSSIP_SENDER_MAIN, 4020);
+            player->ADD_GOSSIP_ITEM( 5, "Campos del Torneo de Argenta. 30 Oros" , GOSSIP_SENDER_MAIN, 4024);
+            player->ADD_GOSSIP_ITEM( 5, "Ulduar. 30 Oros" , GOSSIP_SENDER_MAIN, 4027);
+            player->ADD_GOSSIP_ITEM( 5, "Templo del Reposo del Dragon . 40 Oros" , GOSSIP_SENDER_MAIN, 4028);
+            player->ADD_GOSSIP_ITEM( 5, "Naxxramas. 30 Oros" , GOSSIP_SENDER_MAIN, 4029);
+            player->ADD_GOSSIP_ITEM( 5, "Ciudadela Corona de Hielo. 40 Oros" , GOSSIP_SENDER_MAIN, 4030);
+            player->ADD_GOSSIP_ITEM( 5, "Camara de Archavon. 40 Oros" , GOSSIP_SENDER_MAIN, 4031);
+            player->ADD_GOSSIP_ITEM( 5, "Guarida de Onyxia. 40 Oros" , GOSSIP_SENDER_MAIN, 4035);
+            player->ADD_GOSSIP_ITEM( 7, "<- [Menu Principal]" , GOSSIP_SENDER_MAIN, 5552);
 
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -189,31 +189,31 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
         {
             if (player->GetTeam() == ALLIANCE)
             {
-                player->ADD_GOSSIP_ITEM( 5, "Darnassus. 5 Silver" , GOSSIP_SENDER_MAIN, 1203);
-                player->ADD_GOSSIP_ITEM( 5, "Exodar. 5 Silver" , GOSSIP_SENDER_MAIN, 1216);
-                player->ADD_GOSSIP_ITEM( 5, "Stormwind. 5 Silver" , GOSSIP_SENDER_MAIN, 1206);
-                player->ADD_GOSSIP_ITEM( 5, "Ironforge. 5 Silver" , GOSSIP_SENDER_MAIN, 1224);
-                player->ADD_GOSSIP_ITEM( 5, "Shattrath City. 5 Silver" , GOSSIP_SENDER_MAIN, 1287);
-                player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Silver" , GOSSIP_SENDER_MAIN, 1205);
-                player->ADD_GOSSIP_ITEM( 5, "Isle Of Quel'Danas. 5 Silver" , GOSSIP_SENDER_MAIN, 1288);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances Normal] ->" , GOSSIP_SENDER_MAIN, 5550);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances BC] ->" , GOSSIP_SENDER_MAIN, 5553);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances WotLK] ->" , GOSSIP_SENDER_MAIN, 5554);
-                player->ADD_GOSSIP_ITEM( 7, "[Raids WotLK] ->" , GOSSIP_SENDER_MAIN, 5555);
+                player->ADD_GOSSIP_ITEM( 5, "Darnassus. 5 Platas" , GOSSIP_SENDER_MAIN, 1203);
+                player->ADD_GOSSIP_ITEM( 5, "Exodar. 5 Platas" , GOSSIP_SENDER_MAIN, 1216);
+                player->ADD_GOSSIP_ITEM( 5, "Ciudad de Ventormenta. 5 Platas" , GOSSIP_SENDER_MAIN, 1206);
+                player->ADD_GOSSIP_ITEM( 5, "Forjaz. 5 Platas" , GOSSIP_SENDER_MAIN, 1224);
+                player->ADD_GOSSIP_ITEM( 5, "Ciudad de Shattrath. 5 Platas" , GOSSIP_SENDER_MAIN, 1287);
+                player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Platas" , GOSSIP_SENDER_MAIN, 1205);
+                player->ADD_GOSSIP_ITEM( 5, "Isle Of Quel'Danas. 5 Platas" , GOSSIP_SENDER_MAIN, 1288);
+                player->ADD_GOSSIP_ITEM( 7, "[Instancias Normales] ->" , GOSSIP_SENDER_MAIN, 5550);
+                player->ADD_GOSSIP_ITEM( 7, "[Instancias Burning Crusade] ->" , GOSSIP_SENDER_MAIN, 5553);
+                player->ADD_GOSSIP_ITEM( 7, "[Instancias Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5554);
+                player->ADD_GOSSIP_ITEM( 7, "[Raids Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5555);
             }
             else
             {
-                player->ADD_GOSSIP_ITEM( 5, "Orgrimmar. 5 Silver" , GOSSIP_SENDER_MAIN, 1215);
-                player->ADD_GOSSIP_ITEM( 5, "Silvermoon. 5 Silver" , GOSSIP_SENDER_MAIN, 1217);
-                player->ADD_GOSSIP_ITEM( 5, "Undercity. 5 Silver" , GOSSIP_SENDER_MAIN, 1213);
-                player->ADD_GOSSIP_ITEM( 5, "Thunder Bluff. 5 Silver" , GOSSIP_SENDER_MAIN, 1225);
-                player->ADD_GOSSIP_ITEM( 5, "Shattrath City. 5 Silver" , GOSSIP_SENDER_MAIN, 1287);
-                player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Silver" , GOSSIP_SENDER_MAIN, 1205);
-                player->ADD_GOSSIP_ITEM( 5, "Isle Of Quel'Danas. 5 Silver" , GOSSIP_SENDER_MAIN, 1288);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances Normal] ->" , GOSSIP_SENDER_MAIN, 5550);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances BC] ->" , GOSSIP_SENDER_MAIN, 5553);
-                player->ADD_GOSSIP_ITEM( 7, "[Instances WotLK] ->" , GOSSIP_SENDER_MAIN, 5554);
-                player->ADD_GOSSIP_ITEM( 7, "[Raids WotLK] ->" , GOSSIP_SENDER_MAIN, 5555);
+                player->ADD_GOSSIP_ITEM( 5, "Orgrimmar. 5 Platas" , GOSSIP_SENDER_MAIN, 1215);
+                player->ADD_GOSSIP_ITEM( 5, "Ciudad de Lunargenta. 5 Platas" , GOSSIP_SENDER_MAIN, 1217);
+                player->ADD_GOSSIP_ITEM( 5, "Entrañas. 5 Platas" , GOSSIP_SENDER_MAIN, 1213);
+                player->ADD_GOSSIP_ITEM( 5, "Cima del Trueno. 5 Platas" , GOSSIP_SENDER_MAIN, 1225);
+                player->ADD_GOSSIP_ITEM( 5, "Ciudad de Shattrath. 5 Platas" , GOSSIP_SENDER_MAIN, 1287);
+                player->ADD_GOSSIP_ITEM( 5, "Dalaran. 5 Platas" , GOSSIP_SENDER_MAIN, 1205);
+                player->ADD_GOSSIP_ITEM( 5, "Isla de Quel'Danas. 5 Platas" , GOSSIP_SENDER_MAIN, 1288);
+                player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Normales] ->" , GOSSIP_SENDER_MAIN, 5550);
+                player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Burning Crusade] ->" , GOSSIP_SENDER_MAIN, 5553);
+                player->ADD_GOSSIP_ITEM( 7, "[Mazmorras Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5554);
+                player->ADD_GOSSIP_ITEM( 7, "[Raids Wrath of the Lich King] ->" , GOSSIP_SENDER_MAIN, 5555);
             }
             player->SEND_GOSSIP_MENU(DEFAULT_GOSSIP_MESSAGE,_Creature->GetObjectGuid());
         }
@@ -327,7 +327,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
         else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 8!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 8!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -343,7 +343,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 10!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 10!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -359,7 +359,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 10!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 10!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -375,7 +375,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 11!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 11!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -391,7 +391,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 15!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 15!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -407,7 +407,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 15!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 15!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -423,7 +423,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 25!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 25!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -439,7 +439,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 19!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 19!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -455,7 +455,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 35!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 35!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -471,7 +471,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 21!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 21!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -487,7 +487,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 30!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 30!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -503,7 +503,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 39!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 39!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -519,7 +519,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 25!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 25!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -535,7 +535,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 45!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 45!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -551,7 +551,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 42!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 42!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -567,7 +567,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 31!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 31!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -583,7 +583,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 48!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 48!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -599,7 +599,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 37!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 37!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -615,7 +615,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 37!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 37!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -631,7 +631,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 50!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 50!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -647,7 +647,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 50!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 50!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -663,7 +663,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 55!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 55!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -679,7 +679,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 68!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 68!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -695,7 +695,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 65!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 65!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -711,7 +711,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 55!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 55!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -727,7 +727,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 55!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 55!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -743,7 +743,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 65!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 65!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -759,7 +759,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 66!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 66!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -775,7 +775,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 68!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 68!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -791,7 +791,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 70!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 70!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -807,7 +807,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 65!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 65!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -823,7 +823,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 68!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 68!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -839,7 +839,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 66!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 66!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -855,7 +855,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 67!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 67!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -871,7 +871,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 68!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 68!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -887,7 +887,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 69!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 69!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -903,7 +903,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -919,7 +919,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 71!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 71!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -935,7 +935,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 75!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 75!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -951,7 +951,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -967,7 +967,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -983,7 +983,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -999,7 +999,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -1015,7 +1015,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -1031,7 +1031,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 72!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 72!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -1047,7 +1047,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 75!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 75!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -1063,7 +1063,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;
@@ -1079,7 +1079,7 @@ void SendDefaultMenu_mob_teleguy(Player* player, Creature* _Creature, uint32 act
             else
             {
                 player->CLOSE_GOSSIP_MENU();
-                _Creature->MonsterSay("You must be at least level 80!", LANG_UNIVERSAL);
+                _Creature->MonsterSay("¡Debes estar al menos a nivel 80!", LANG_UNIVERSAL);
             }
         }
         break;

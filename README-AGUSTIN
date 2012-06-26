@@ -1,0 +1,10 @@
+Parches Metidos:
+
+- Traducciones para: esES y esMX.
+- Traducido el Teleguy.
+- Añadida la carpeta sql_als para mis parches.
+- Añadido el fichero sd2_revision_ALS.h.
+- Reorganizacion.
+- Empiezan las prueba con la batalla de los barcos. TESTING. Resultado el script: no se puede compilar.
+- Añadido fix temporal para poder compilar. Se retirara cuando se arregle.
+- Retirado el fix temporal.
